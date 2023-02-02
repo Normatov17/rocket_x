@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/bx-rocket.svg">
+    <!-- Aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- google font awsome cdnj -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- swipper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Rock</title>
+  </head>
+
+  <body class="overflow-x-hidden">
+  <main class="">
+    <!-- header section -->
+    <header id="header" class="sticky top-0 w-full z-50 bg-white border-b-2">
+      <div
+        class="max-w-base px-5 mx-auto flex items-center justify-between p-6"
+      >
+        <!-- Logo -->
+        <a href="#" class="hover:opacity-75 transition duration-500">
+          <img src="./img/logotip.svg" aria-details="hidden" alt="" />
+        </a>
+        <!-- nav/button -->
+        <div class="flex items-center gap-8 ml-auto md:ml-0">
+          <nav class="">
+            <ul class="hidden md:flex items-center gap-8">
+              <li>
+                <a href="#" class="text-lg font-medium hover:text-violet-700"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-lg font-medium hover:text-violet-700"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-lg font-medium hover:text-violet-700"
+                  >Services</a
+                >
+              </li>
+              <li class="group before:h-10">
+                <div class="">
+                  <a
+                    href="#"
+                    class="flex items-end gap-1 font-medium text-lg hover:text-violet-700 group"
+                    >Pages
+                    <span class="group-hover:rotate-180">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        style="fill: rgba(0, 0, 0, 1); transform: msFilter"
+                      >
+                        <path
+                          d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"
+                        ></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+                <div
+                  class="hidden group-hover:block transition duration-500 absolute top-20 left-1/3 px-10 pt-8 pb-8 bg-gray-100 border-1 rounded-xl border-2 border-gray-500"
+                >
+                  <div class="flex gap-10">
+                    <!-- Peges -->
+                    <ul class="flex flex-col items-start gap-y-3">
+                      <h3 class="uppercase text-lg font-bold">Pages</h3>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Home</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >About</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Conact</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Case studies</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Case study single
+                          <span
+                            class="border border-black rounded-full px-2 mb-auto"
+                            >смс</span
+                          >
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Services</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Service single</a
+                        >
+                      </li>
+                    </ul>
+
+                    <!-- .--. -->
+                    <ul class="flex flex-col items-start gap-y-3">
+                      <h3 class="uppercase opacity-0">Pages</h3>
+                      <li>
+                        <a
+                          href="#"
+                          class="transform hover:translate-x-2 hover:text-violet-700"
+                          >Blog</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="transform hover:translate-x-2 hover:text-violet-700"
+                          >Blog Post
+                          <span>смс</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="transform hover:translate-x-2 hover:text-violet-700"
+                          >Packages</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="transform hover:translate-x-2 hover:text-violet-700"
+                          >Packages
+                          <span>смс</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="transform hover:translate-x-2 hover:text-violet-700"
+                          >Careers</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="transform hover:translate-x-2 hover:text-violet-700"
+                          >Careers Signal
+                          <span>смс</span>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <!-- utility -->
+                    <ul class="flex flex-col items-start gap-y-3">
+                      <h3 class="uppercase ext-lg font-bold">Utility Pages</h3>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Start hero</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Style guide</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Password protected</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >404 Not found</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Licenses</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-violet-700 transition duration-500"
+                          >Changelog</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="font-bold text-lg hover:translate-x-2"
+                          >Browse all templates
+                          <span></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <button class="text-lg font-medium hover:text-violet-700 mr-3">
+            Cart(0)
+          </button>
+        </div>
+        <!-- humburger menu -->
+        <div class="flex items-center gap-3">
+          <button
+            class="px-5 py-4 bg-gray-900 text-white rounded-full hidden items-center sm:flex hover:bg-violet-700 hover:-translate-y-1 transition duration-500 group"
+          >
+            Get in tounch
+            <span class="group-hover:translate-x-1 transition duration-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(255, 255, 255, 1); transform: msFilter"
+              >
+                <path
+                  d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+          <button
+            class="flex flex-col gap-y-2 md:hidden px-4 py-5 bg-gray-900 rounded-full menucontainer"
+          >
+            <div class="w-6 h-[3px] bg-white rounded-xl focus:rotate-45"></div>
+            <div class="w-6 h-[3px] bg-white rounded-xl focus:-rotate-45"></div>
+          </button>
+          <div
+            class="hidden absolute top-20 left-0 right-0 bg-white z-10 h-screen menuwrap"
+          >
+            <div class="flex flex-col gap-y-3 pl-5 w-full">
+              <a href="#" class="text-2xl">Home</a>
+              <a href="#about" class="text-2xl">About</a>
+              <a href="#" class="text-2xl">Services</a>
+              <a href="#" class="text-2xl">Pages</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="pt-[80px] pb-[163px] hero">
+      <div class="max-w-base px-5 mx-auto grid lg:grid-cols-2 items-center">
+        <!-- Left -->
+        <div data-aos="zoom-in">
+          <div class="flex items-center gap-x-2 mb-5">
+            <div class="w-28 h-[2px] bg-black"></div>
+            <p class="text-lg font-bold">MARKETING AGENCY</p>
+          </div>
+          <h1
+            class="max-w-[695px] relative z-10 text-center md:text-left text-4xl md:text-[70px] md:leading-[86px] text-black mb-4 font-semibold"
+          >
+            We are a digital
+            <span class="sm:hidden lg:inline-block">
+              <img
+                class="absolute -z-10 -left-2"
+                src="./img/bordertext.svg"
+                alt=""
+              />
+              marketing</span
+            >
+            agency
+          </h1>
+          <p class="max-w-2xl text-xl mb-8">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus ante
+            velit nunc morbi pretium ut nullam dolor pulvinar proin viverra
+            ullamcorper aceget.
+          </p>
+          <div class="md:flex items-center gap-8 mb-9 md:mb-0">
+            <div
+              class="block hover:-translate-y-1 transition duration-500 group mb-5 md:mb-0"
+            >
+              <a
+                href="#"
+                class="px-7 py-6 flex items-center text-center gap-x-2 bg-gray-900 hover:bg-violet-700 text-white text-xl font-semibold rounded-full"
+                >Get in touch
+                <span class="group-hover:translate-x-1 transition duration-500">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    style="fill: rgba(255, 255, 255, 1); transform: msFilter"
+                  >
+                    <path
+                      d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                    ></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <div class="block hover:-translate-y-1 transition duration-500">
+              <a
+                href="#"
+                class="px-7 py-6 border flex border-gray-900 text-xl font-semibold rounded-full hover:border-violet-700 hover:text-violet-700 transition duration-500"
+                >Our Services
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- right -->
+        <div data-aos="zoom-in-up">
+          <img src="./img/grils-treding.webp" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR SERVICES -->
+    <div class="overflow-x-hidden">
+            <div id="services" class="relative max-w-5xl lg:max-w-7xl px-6 lg:px-1.5 pb-16 sm:pb-20 md:pb-24 lg:pb-36 mx-auto">
+                <!-- Section title & button -->
+                <div class="flex justify-between items-end mb-10">
+                    <div>
+                        <div data-aos="fade-right"  data-aos-delay="700" class="inline-flex items-center lg:space-x-4 pb-4 sm:pb-5 md:pb-6">
+                            <span class="hidden lg:inline-block w-20 h-0.5 bg-brand-black"></span>
+                            <p class="font-bold md:text-lg uppercase opacity-90">marketing agency</p>
+                        </div>
+                        <h2 class="font-semibold text-3xl sm:text-4xl md:text-42 leading-tight lg:text-5xl lg:!leading-66 text-brand-black">
+                            High-impact services to
+                             <br> 
+                             help your business
+                        </h2>
+                    </div>
+    
+                    <div class="md:flex hidden items-center justify-center gap-4"> 
+                        <button class="swiper-button-pre w-16 h-16 flex items-center justify-center bg-brand-black text-white rounded-full hover:bg-brand-blue-400 hover:scale-105 duration-300 ease-linear">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+                              </svg>             
+                        </button>
+    
+                        <button class="swiper-button-nex w-16 h-16 flex items-center justify-center bg-brand-black text-white rounded-full hover:bg-brand-blue-400 hover:scale-105 duration-300 ease-linear">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                              </svg>                                      
+                        </button>
+                    </div>  
+                </div>
+
+                <!-- Swiper -->                                   
+                <div class="swiper mySwiperServices overflow-hidden">
+                    <div data-delay="4000" class="swiper-wrapper !overflow-visible mb-7">
+                        <div class="swiper-slide">
+                            <a href="#" class="group inline-block text-brand-black bg-brand-orange hover:-translate-y-1 transition ease duration-300 rounded-3xl lg:rounded-30px pt-11 sm:pt-12 md:pt-70 px-6 sm:px-8 lg:px-10 pb-9 md:pb-11 lg:pb-16">
+                                <img class="w-32 md:w-36 lg:w-44 group-hover:scale-105 ease-linear duration-300" src="./img/swippersms.webp" alt="services-rocket">
+                                <h3 class="font-semibold text-3xl mt-4 lg:mt-5 mb-1.5">Email Marketing</h3>
+                                <p class="mb-5 text-lg md:mb-6 lg:mb-8 max-w-xs">
+                                    Lorem ipsum dolor sit amet consecte adipiscing elit faucibus ante velitr. 
+                                </p>
+                                <div class="flex items-center space-x-4">
+                                    <span class="font-bold group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">Learn more</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="block  w-7 h-full group-hover:translate-x-1 group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                  </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="group inline-block text-brand-black bg-brand-blue-300 hover:-translate-y-1 transition ease duration-300 rounded-3xl llg:rounded-30px pt-11 sm:pt-12 md:pt-70 px-6 sm:px-8 lg:px-10 pb-9 md:pb-11 lg:pb-16">
+                                <img class="w-32 md:w-36 lg:w-44 group-hover:scale-105 ease-linear duration-300" src="./img/swipperkarnay.webp" alt="services-rocket">
+                                <h3 class="font-semibold text-3xl mt-4 lg:mt-5 mb-1.5">Paid Advertising</h3>
+                                <p class="mb-5 md:mb-6 lg:mb-8 max-w-xs">
+                                    Lorem ipsum dolor sit amet consecte adipiscing elit faucibus ante velitr. 
+                                    <!-- <span class="text-no-wrap">ante velitr.</span> -->
+                                </p>
+                
+                                <div class="flex items-center space-x-4">
+                                    <span class="font-bold group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">Learn more</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="block  w-7 h-full group-hover:translate-x-1 group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                    </svg>       
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="group inline-block text-brand-black bg-brand-teal-300 hover:-translate-y-1 transition ease duration-300 rounded-3xl  lg:rounded-30px pt-11 sm:pt-12 md:pt-70 px-6 sm:px-8 lg:px-10 pb-9 md:pb-11 lg:pb-16">
+                                <img class="w-32 md:w-36 lg:w-44 group-hover:scale-105 ease-linear duration-300" src="./img/swippersearvh.webp" alt="services-rocket">
+                                <h3 class="font-semibold text-3xl mt-4 lg:mt-5 mb-1.5">SEO</h3>
+                                <p class="mb-5 md:mb-6 lg:mb-8 max-w-xs">
+                                    Lorem ipsum dolor sit amet consecte adipiscing elit faucibus ante velitr. 
+                                    <!-- <span class="text-no-wrap">ante velitr.</span> -->
+                                </p>
+                
+                                <div class="flex items-center space-x-4">
+                                    <span class="font-bold group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">Learn more</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="block  w-7 h-full group-hover:translate-x-1 group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                    </svg>       
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="group inline-block text-brand-black bg-brand-orange hover:-translate-y-1 transition ease duration-300 rounded-3xl lg:rounded-30px pt-11 sm:pt-12 md:pt-70 px-6 sm:px-8 lg:px-10 pb-9 md:pb-11 lg:pb-16">
+                                <img class="w-32 md:w-36 lg:w-44 group-hover:scale-105 ease-linear duration-300" src="./img/swipperkvad4.webp" alt="services-rocket">
+
+                                <h3 class="font-semibold text-3xl mt-4 lg:mt-5 mb-1.5">Advanced Analytics</h3>
+                                <p class="mb-5 md:mb-6 lg:mb-8">
+                                    Lorem ipsum dolor sit amet consecte adipiscing elit faucibus ante velitr. 
+                                    <!-- <span class="text-no-wrap">ante velitr.</span> -->
+                                </p>
+                                <div class="flex items-center space-x-4">
+                                    <span class="font-bold group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">Learn more</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="block  w-7 h-full group-hover:translate-x-1 group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                    </svg>       
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="group inline-block text-brand-black bg-brand-blue-300 hover:-translate-y-1 transition ease duration-300 rounded-3xl lg:rounded-30px pt-11 sm:pt-12 md:pt-70 px-6 sm:px-8 lg:px-10 pb-9 md:pb-11 lg:pb-16">
+                                <img class="w-32 md:w-36 lg:w-44 group-hover:scale-105 ease-linear duration-300" src="./img/swipperyoutube5.webp" alt="services-rocket">
+                                <h3 class="font-semibold text-3xl mt-4 lg:mt-5 mb-1.5">Content Marketing</h3>
+                                <p class="mb-5 md:mb-6 lg:mb-8 max-w-xs">
+                                    Lorem ipsum dolor sit amet consecte adipiscing elit faucibus ante velitr. 
+                                    <!-- <span class="text-no-wrap">ante velitr.</span> -->
+                                </p>
+                                <div class="flex items-center space-x-4">
+                                    <span class="font-bold group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">Learn more</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="block w-7 h-full group-hover:translate-x-1 group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                    </svg>       
+                                </div>
+                            </a>
+                        </div>
+                         <div class="swiper-slide">
+                            <a href="#" class="group inline-block text-brand-black bg-brand-teal-300 hover:-translate-y-1 transition ease duration-300 rounded-3xl lg:rounded-30px pt-11 sm:pt-12 md:pt-70 px-6 sm:px-8 lg:px-10 pb-9 md:pb-11 lg:pb-16">
+                                <img class="w-32 md:w-36 lg:w-44 group-hover:scale-105 ease-linear duration-300" src="./img/swipperfabar.webp" alt="services-rocket">
+                                <h3 class="font-semibold text-3xl mt-4 lg:mt-5 mb-1.5">Funnel Optimization</h3>
+                                <p class="mb-5 md:mb-6 lg:mb-8">
+                                    Lorem ipsum dolor sit amet consecte adipiscing elit faucibus ante velitr. 
+                                    <!-- <span class="text-no-wrap">ante velitr.</span> -->
+                                </p>
+                                <div class="flex items-center space-x-4">
+                                    <span class="font-bold group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">Learn more</span>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="block w-7 h-full group-hover:translate-x-1 group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                    </svg>       
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="group inline-block text-brand-black bg-brand-orange hover:-translate-y-1 transition ease duration-300 rounded-3xl lg:rounded-30px pt-11 sm:pt-12 md:pt-70 px-6 sm:px-8 lg:px-10 pb-9 md:pb-11 lg:pb-16">
+                                <img class="w-32 md:w-36 lg:w-44 group-hover:scale-105 ease-linear duration-300" src="./img/swippersms.webp" alt="services-rocket">
+                                <h3 class="font-semibold text-3xl mt-4 lg:mt-5 mb-1.5">Email Marketing</h3>
+                                <p class="mb-5 md:mb-6 lg:mb-8">
+                                    Lorem ipsum dolor sit amet consecte adipiscing elit faucibus ante velitr. 
+                                    <!-- <span class="text-no-wrap">ante velitr.</span> -->
+                                </p>
+                                <div class="flex items-center space-x-4">
+                                    <span class="font-bold group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">Learn more</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="block w-7 h-full group-hover:translate-x-1 group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                    </svg>       
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="group inline-block text-brand-black bg-brand-blue-300 hover:-translate-y-1 transition ease duration-300 rounded-3xl lg:rounded-30px pt-11 sm:pt-12 md:pt-70 px-6 sm:px-8 lg:px-10 pb-9 md:pb-11 lg:pb-16">
+                                <img class="w-32 md:w-36 lg:w-44 group-hover:scale-105 ease-linear duration-300" src="./img/swipperkarnay.webp" alt="services-rocket">
+                                <h3 class="font-semibold text-3xl mt-4 lg:mt-5 mb-1.5">Paid Advertising</h3>
+                                <p class="mb-5 md:mb-6 lg:mb-8">
+                                    Lorem ipsum dolor sit amet consecte adipiscing elit faucibus ante velitr. 
+                                    <!-- <span class="text-no-wrap">ante velitr.</span> -->
+                                </p>
+                
+                                <div class="flex items-center space-x-4">
+                                    <span class="font-bold group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">Learn more</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="block w-7 h-full group-hover:translate-x-1 group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                    </svg>       
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="group inline-block text-brand-black bg-brand-teal-300 hover:-translate-y-1 transition ease duration-300 rounded-3xl lg:rounded-30px pt-11 sm:pt-12 md:pt-70 px-6 sm:px-8 lg:px-10 pb-9 md:pb-11 lg:pb-16">
+                                <img class="w-32 md:w-36 lg:w-44 group-hover:scale-105 ease-linear duration-300" src="./img/swippersearvh.webp" alt="services-rocket">
+                                <h3 class="font-semibold text-3xl mt-4 lg:mt-5 mb-1.5">SEO</h3>
+                                <p class="mb-5 md:mb-6 lg:mb-8">
+                                    Lorem ipsum dolor sit amet consecte adipiscing elit faucibus ante velitr. 
+                                    <!-- <span class="text-no-wrap">ante velitr.</span> -->
+                                </p>
+                
+                                <div class="flex items-center space-x-4">
+                                    <span class="font-bold group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">Learn more</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="block w-7 h-full group-hover:translate-x-1 group-hover:text-brand-blue-400 transition-transform ease-linear duration-300">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                    </svg>       
+                                </div>
+                            </a>
+                        </div>
+                    </div>           
+                </div>
+                <div class="flex md:hidden items-center justify-center gap-4 my-14"> 
+                <button class="swiper-button-prev0 w-16 h-16 flex items-center justify-center bg-brand-black text-white rounded-full hover:bg-brand-blue-400 hover:scale-105 duration-300 ease-linear">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+                    </svg>             
+                </button>
+
+                <button class="swiper-button-next0 w-16 h-16 flex items-center justify-center bg-brand-black text-white rounded-full hover:bg-brand-blue-400 hover:scale-105 duration-300 ease-linear">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>                                      
+                </button>
+                </div> 
+                <div class="md:flex items-center gap-8 mb-9 md:mb-0 justify-center">
+                  <div
+                    class="block hover:-translate-y-1 transition duration-500 group mb-5 md:mb-0"
+                  >
+                    <a
+                      href="#"
+                      class="px-7 py-6 flex items-center text-center gap-x-2 bg-gray-900 hover:bg-violet-700 text-white text-xl font-semibold rounded-full"
+                      >Get in touch
+                      <span class="group-hover:translate-x-1 transition duration-500">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          style="fill: rgba(255, 255, 255, 1); transform: msFilter"
+                        >
+                          <path
+                            d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                          ></path>
+                        </svg>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="block hover:-translate-y-1 transition duration-500">
+                    <a
+                      href="#"
+                      class="px-7 py-6 border flex border-gray-900 text-xl font-semibold rounded-full hover:border-violet-700 hover:text-violet-700 transition duration-500"
+                      >Our Services
+                    </a>
+                  </div>
+                </div>
+            
+            </div>
+    </div>
+
+    <!-- About -->
+    <section id="about" class="py-36">
+      <div class="max-w-base mx-auto px-5 flex flex-col items-center">
+        <!-- top -->
+        <div class="flex flex-col items-center justify-center">
+          <p class="text-lg font-bold text-gray-900">ABOUT US</p>
+          <h2
+            class="text-3xl md:text-[50px] font-semibold md:leading-[66px] md:max-w-3xl text-center mb-3"
+          >
+            The great team of industry experts behind Rocket
+          </h2>
+          <p class="max-w-3xl text-center text-lg text-gray-700 font-medium">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus ante
+            velit nunc morbi pretium ut nullam dolor pulvinar proin viverra
+            ullamcorper aceget.
+          </p>
+        </div>
+        <div data-aos="zoom-in" class="mb-9">
+          <img src="./img/aboutimg.webp" alt="" />
+        </div>
+        <div
+          class="inline-block hover:-translate-y-1 transition duration-500 group mb-10 md:mb-0"
+        >
+          <a
+            href="#"
+            class="px-7 py-6 flex items-center gap-x-2 bg-gray-900 hover:bg-violet-700 text-white text-xl font-semibold rounded-full"
+            >Get in touch
+            <span class="group-hover:translate-x-1 transition duration-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(255, 255, 255, 1); transform: msFilter"
+              >
+                <path
+                  d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                ></path>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact up -->
+    <section id="conatact" class="py-20 md:py-40">
+      <div
+        class="max-w-base mx-auto px-5 bg-[#C3EDFF] rounded-2xl md:rounded-[50px] grid md:grid-cols-2"
+      >
+        <!-- left -->
+        <div class="pt-7 md:pl-[89px] md:pr-[46px] md:py-[102px]">
+          <div data-aos="fade-down-right">
+            <div class="flex items-center gap-x-2 mb-5">
+              <div class="w-20 h-[2px] bg-black"></div>
+              <p class="text-lg font-bold">CONTACT US</p>
+            </div>
+            <h2
+              class="max-w-[473px] text-2xl md:text-[50px] font-semibold md:leading-[66px] mb-16"
+            >
+              Looking to rocket your startup? Get in touch today!
+            </h2>
+            <button
+              class="px-12 py-8 bg-gray-900 text-white text-lg rounded-full hidden items-center sm:flex hover:bg-violet-700 hover:-translate-y-1 transition duration-500 group"
+            >
+              Get in tounch
+              <span class="group-hover:translate-x-1 transition duration-700">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(255, 255, 255, 1); transform: msFilter"
+                >
+                  <path
+                    d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                  ></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="lg:-mt-40">
+          <div data-aos="fade-down-left">
+            <img src="./img/contactsvg.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our process -->
+    <div
+      class="relative max-w-5xl lg:max-w-7xl px-5 sm:px-6 lg:px-1.5 py-28 mx-auto z-10"
+    >
+      <div class="text-center mb-10">
+        <h3 class="font-bold md:text-lg uppercase opacity-90 mb-4">
+          our process
+        </h3>
+        <h2
+          class="font-semibold text-3xl sm:text-4xl md:text-42 leading-8 lg:text-5xl lg:!leading-66 text-brand-black mb-2.5"
+        >
+          A simple, yet powerful
+          <br class="hidden sm:inline-block" />
+          and efficient process
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus ante
+          velit
+          <br class="hidden md:inline-block" />
+          nunc morbi pretium ut nullam dolor pulvinar proin viverra ullamcor.
+        </p>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiperProcess">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="max-w-xl lg:max-w-5xl mx-auto grid lg:grid-cols-2 items-center bg-brand-blue-300 rounded-3xl lg:rounded-30px"
+            >
+              <div class="max-w-full px-4 lg:px-0">
+                <img
+                  class="w-full h-full object-cover"
+                  src="./img/swippersvg.webp"
+                  alt=""
+                />
+              </div>
+              <div class="pt-8 px-8 pb-12 lg:pl-6 lg:pr-12 xl:pr-16">
+                <h2 class="font-semibold text-xl sm:text-2xl lg:text-3xl mb-3">
+                  1. Marketing Plan
+                </h2>
+                <p class="leading-8">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit amet
+                  quis tincidunt nunc sed pellentesque iaculis et platea
+                  sagittis pellentesque adipiscing nunc volutpat quis turpis
+                  proin scelerisque lectus sed ultricies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="max-w-xl lg:max-w-5xl mx-auto grid lg:grid-cols-2 items-center bg-brand-orange rounded-3xl lg:rounded-30px"
+            >
+              <div class="max-w-full px-4 lg:px-0">
+                <img
+                  class="w-full h-full object-cover"
+                  src="./img/swippersvg2.webp"
+                  alt=""
+                />
+              </div>
+              <div class="pt-8 px-8 pb-12 lg:pl-6 lg:pr-12 xl:pr-16">
+                <h2 class="font-semibold text-xl sm:text-2xl lg:text-3xl mb-3">
+                  2.Execution
+                </h2>
+                <p class="leading-8">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit amet
+                  quis tincidunt nunc sed pellentesque iaculis et platea
+                  sagittis pellentesque adipiscing nunc volutpat quis turpis
+                  proin scelerisque lectus sed ultricies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="max-w-xl lg:max-w-5xl mx-auto grid lg:grid-cols-2 items-center bg-brand-teal-300 rounded-3xl lg:rounded-30px"
+            >
+              <div class="max-w-full px-4 lg:px-0">
+                <img
+                  class="w-full h-full object-cover"
+                  src="./img/swippersvg3.webp"
+                  alt=""
+                />
+              </div>
+              <div class="pt-8 px-8 pb-12 lg:pl-6 lg:pr-12 xl:pr-16">
+                <h2 class="font-semibold text-xl sm:text-2xl lg:text-3xl mb-3">
+                  3.Growth & Scale
+                </h2>
+                <p class="leading-8">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit amet
+                  quis tincidunt nunc sed pellentesque iaculis et platea
+                  sagittis pellentesque adipiscing nunc volutpat quis turpis
+                  proin scelerisque lectus sed ultricies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="absolute left-0 top-1/2 z-0 xl:z-20 swiper-button-prev2 w-16 h-16 hidden lg:flex items-center justify-center bg-brand-black text-white rounded-full hover:bg-brand-blue-400 hover:scale-105 duration-300 ease-linear"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+            stroke="currentColor"
+            class="w-6 h-7"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+            />
+          </svg>
+        </button>
+
+        <button
+          class="absolute right-0 top-1/2 z-0 xl:z-20 swiper-button-next2 w-16 h-16 hidden lg:flex items-center justify-center bg-brand-black text-white rounded-full hover:bg-brand-blue-400 hover:scale-105 duration-300 ease-linear"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+            stroke="currentColor"
+            class="w-6 h-7"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+            />
+          </svg>
+        </button>
+
+        <div
+          class="flex lg:hidden justify-center items-center gap-6 text-white mt-16"
+        >
+          <button
+            class="swiper-button-prev2 w-16 h-16 flex items-center justify-center bg-brand-black rounded-full hover:bg-brand-blue-400 hover:scale-105 duration-300 ease-linear"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+              stroke="currentColor"
+              class="w-6 h-7"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+              />
+            </svg>
+          </button>
+
+          <button
+            class="swiper-button-next2 w-16 h-16 flex items-center justify-center bg-brand-black rounded-full hover:bg-brand-blue-400 hover:scale-105 duration-300 ease-linear"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+              stroke="currentColor"
+              class="w-6 h-7"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Case studio -->
+    <section class="md:pt-40 pb-40">
+      <div class="max-w-base px-5 mx-auto">
+        <!-- top -->
+        <div
+          class="flex flex-col items-center justify-between md:justify-between lg:flex-row mb-9"
+        >
+          <!-- left -->
+          <div class="">
+            <div class="flex items-center gap-x-2 mb-4">
+              <div class="w-20 h-[2px] bg-black"></div>
+              <p class="text-lg font-bold">CASE STUDIES</p>
+            </div>
+            <h2
+              class="max-w-md md:max-w-lg text-3xl sm:text-50 md:leading-[66px] font-semibold text-center lg:text-left mb-4 md:mb-0"
+            >
+              The results speak for themselves
+            </h2>
+          </div>
+          <!-- right -->
+          <div class="sm:flex items-center gap-8 mb-9 md:mb-0">
+            <div
+              class="block hover:-translate-y-1 transition duration-500 group mb-4 sm:mb-0"
+            >
+              <a
+                href="#"
+                class="px-6 py-5 flex items-center text-center gap-x-2 bg-gray-900 hover:bg-violet-700 text-white text-xl font-semibold rounded-full"
+                >Get in touch
+                <span class="group-hover:translate-x-1 transition duration-500">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    style="fill: rgba(255, 255, 255, 1); transform: msFilter"
+                  >
+                    <path
+                      d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                    ></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <div class="block hover:-translate-y-1 transition duration-500">
+              <a
+                href="#"
+                class="px-6 py-5 border flex border-gray-900 text-xl font-semibold rounded-full hover:border-violet-700 hover:text-violet-700 transition duration-500"
+                >Our Services
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- grid -->
+        <div
+          class="md:max-w-md lg:max-w-base px-5 mx-auto grid lg:grid-cols-2 gap-x-8 gap-y-16"
+        >
+          <!-- Item 1 -->
+          <div data-aos="fade-right">
+            <a
+              href="#"
+              class="group rounded-3xl transition duration-300 bg-brand-teal-21 inline-block hover:-translate-y-1"
+            >
+              <div
+                class="overflow-hidden rounded-t-3xl border-b border-gray-200"
+              >
+                <img
+                  class="group-hover:scale-105 transition duration-300"
+                  src="img/caseimg.png"
+                  alt=""
+                />
+              </div>
+              <div class="py-5 px-5 md:pt-9 md:px-12 md:pb-10">
+                <h3 class="max-w-lg text-2xl font-semibold leading-10 mb-2">
+                  How we increased sign up rate by 56% on Creators Program
+                </h3>
+                <div class="flex items-center justify-between">
+                  <div>
+                    <img
+                      src="./img/facebook.svg"
+                      aria-details="hidden"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="p-4 bg-slate-900 rounded-full group-hover:bg-blue-500 transition duration-500"
+                  >
+                    <svg
+                      class="group-hover:-rotate-45 transition duration-500"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      style="fill: rgba(255, 250, 250, 1); transform: msFilter"
+                    >
+                      <path
+                        d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                      ></path>
+                    </svg>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div data-aos="fade-left">
+            <a
+              href="#"
+              class="group rounded-3xl transition duration-300 bg-brand-teal-22 inline-block hover:-translate-y-1"
+            >
+              <div
+                class="overflow-hidden rounded-t-3xl border-b border-gray-200"
+              >
+                <img
+                  class="group-hover:scale-105 transition duration-300"
+                  src="img/caseimg2.png"
+                  alt=""
+                />
+              </div>
+              <div class="py-5 px-5 md:pt-9 md:px-12 md:pb-10">
+                <h3 class="max-w-lg text-2xl font-semibold leading-10 mb-2">
+                  How we increased sign up rate by 56% on Creators Program
+                </h3>
+                <div class="flex items-center justify-between">
+                  <div>
+                    <img src="./img/twitch.svg" aria-details="hidden" alt="" />
+                  </div>
+                  <p
+                    class="p-4 bg-slate-900 rounded-full group-hover:bg-blue-500 group-hover:-translate-x-1 transition duration-500"
+                  >
+                    <svg
+                      class="group-hover:-rotate-45 transition duration-500"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      style="fill: rgba(255, 250, 250, 1); transform: msFilter"
+                    >
+                      <path
+                        d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                      ></path>
+                    </svg>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- boy -->
+    <section class="py-24 mx-3">
+      <div class="max-w-base mx-auto px-5 bg-brand-teal-22 rounded-3xl md:flex items-center">
+        <!-- right -->
+        <div class="lg:-mt-32 lg:mr-3">
+            <div data-aos="fade-down-left" class="max-w-2xl">
+              <img  src="./img/boyimgsvgs.webp" alt="" />
+            </div>
+          </div>
+        
+        <!-- right -->
+        <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500" class="py-24 md:pr-16 md:pl-12">
+            <div class="flex items-center gap-2 mb-4">
+                <div class="w-9 h-[2px] bg-black"></div>
+                <p class="text-lg font-bold leading-5">CONTACT US</p>
+            </div>
+            <h2 class="md:max-w-465 text-3xl md:text-50 font-semibold md:leading-[66px] mb-5">
+                Ready to grow your startup? Get in touch today!
+            </h2>
+            <button
+            class="px-8 py-6 bg-gray-900 text-white rounded-full flex items-center gap-2 hover:bg-violet-700 hover:-translate-y-1 transition duration-500 group"
+          >
+            Get in tounch
+            <span class="group-hover:translate-x-1 transition duration-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(255, 255, 255, 1); transform: msFilter"
+              >
+                <path
+                  d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--swipper -->
+    <div class="overflow-x-hidden">
+      <div
+        class="max-w-7xl mx-auto px-5 sm:px-6 xl:px-1.5 py-24 lg:py-32 xl:py-36 2xl:py-44"
+      >
+        <div class="text-center mb-10">
+          <h3 class="font-bold md:text-lg uppercase opacity-90 mb-4">
+            testimonials
+          </h3>
+          <h2
+            class="font-semibold text-3xl sm:text-4xl md:text-42 leading-8 lg:text-5xl lg:!leading-66 text-brand-black mb-2.5"
+          >
+            Don't take our word for
+            <br class="hidden sm:inline-block" />
+            it, take theirs!
+          </h2>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiperTestimonials">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide max-w-[866px] w-full">
+              <div
+                class="md:flex items-center justify-between text-center md:text-start md:space-x-6 lg:space-x-10 bg-brand-blue-300 rounded-3xl lg:rounded-30px py-16 lg:py-20 px-6 sm:px-8 md:px-14 xl:px-16"
+              >
+                <div
+                  class="lg:max-w-[178px] flex flex-col justify-center text-center mx-auto md:mx-0"
+                >
+                  <div class="mb-2.5 lg:mb-5">
+                    <img
+                      class="w-24 sm:w-28 md:w-36 lg:w-40 h-24 sm:h-28 md:h-36 lg:h-40 border-[3px] border-brand-black rounded-full mx-auto"
+                      src="./img/testimolassvg1.webp"
+                      alt=""
+                    />
+                  </div>
+                  <h3
+                    class="font-bold text-lg md:text-xl text-brand-black mb-2"
+                  >
+                    John Carter
+                  </h3>
+                  <p class="font-semibold text-sm md:text-base uppercase">
+                    head of marketing
+                  </p>
+                </div>
+                <div
+                  class="md:max-w-md lg:max-w-[486px] w-full mx-auto md:mx-0"
+                >
+                  <h3
+                    class="font-semibold text-xl md:text-2xl lg:leading-9 mb-2.5 md:mb-4 text-brand-black"
+                  >
+                    “Rocket agency helped us to reach our ambitious marketing
+                    goals”
+                  </h3>
+                  <p class="md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    faucibus suspendisse volutpat in bibendum enim enim vel
+                    Ipsum pretium lobortis felis egestas felis wt pharetra sit
+                    vestibulum lacus arcu posuere auctor.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide max-w-[866px] w-full">
+              <div
+                class="md:flex items-center justify-between text-center md:text-start md:space-x-6 lg:space-x-10 bg-brand-orange rounded-3xl lg:rounded-30px py-16 lg:py-20 px-6 sm:px-8 md:px-14 xl:px-16"
+              >
+                <div
+                  class="lg:max-w-[178px] flex flex-col justify-center text-center mx-auto md:mx-0"
+                >
+                  <div class="mb-2.5 lg:mb-5">
+                    <img
+                      class="w-24 sm:w-28 md:w-36 lg:w-40 h-24 sm:h-28 md:h-36 lg:h-40 border-[3px] border-brand-black rounded-full mx-auto"
+                      src="./img/testimolassvg2.webp"
+                      alt=""
+                    />
+                  </div>
+                  <h3
+                    class="font-bold text-lg md:text-xl text-brand-black mb-2"
+                  >
+                    Sophie Moore
+                  </h3>
+                  <p class="font-semibold text-sm md:text-base uppercase">
+                    vp of marketing
+                  </p>
+                </div>
+                <div
+                  class="md:max-w-md lg:max-w-[486px] w-full mx-auto md:mx-0"
+                >
+                  <h3
+                    class="font-semibold text-xl md:text-2xl lg:leading-9 mb-2.5 md:mb-4 text-brand-black"
+                  >
+                    “Rocket agency helped us to have simply impressive results”
+                  </h3>
+                  <p class="md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    faucibus suspendisse volutpat in bibendum enim enim vel
+                    Ipsum pretium lobortis felis egestas felis wt pharetra sit
+                    vestibulum lacus arcu posuere auctor.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide max-w-[866px] w-full">
+              <div
+                class="md:flex items-center justify-between text-center md:text-start md:space-x-6 lg:space-x-10 bg-brand-teal-300 rounded-3xl lg:rounded-30px py-16 lg:py-20 px-6 sm:px-8 md:px-14 xl:px-16"
+              >
+                <div
+                  class="lg:max-w-[178px] flex flex-col justify-center text-center mx-auto md:mx-0"
+                >
+                  <div class="mb-2.5 lg:mb-5">
+                    <img
+                      class="w-24 sm:w-28 md:w-36 lg:w-40 h-24 sm:h-28 md:h-36 lg:h-40 border-[3px] border-brand-black rounded-full mx-auto"
+                      src="./img/testimolassvg3.webp"
+                      alt=""
+                    />
+                  </div>
+                  <h3
+                    class="font-bold text-lg md:text-xl text-brand-black mb-2"
+                  >
+                    Kelly Smith
+                  </h3>
+                  <p class="font-semibold text-sm md:text-base uppercase">
+                    GROWTH MARKETER
+                  </p>
+                </div>
+                <div class="max-w-md lg:max-w-[486px] w-full mx-auto md:mx-0">
+                  <h3
+                    class="font-semibold text-xl md:text-2xl lg:leading-9 mb-2.5 md:mb-4 text-brand-black"
+                  >
+                    “Rocket agency helped us to have simply impressive results”
+                  </h3>
+                  <p class="md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    faucibus suspendisse volutpat in bibendum enim enim vel
+                    Ipsum pretium lobortis felis egestas felis wt pharetra sit
+                    vestibulum lacus arcu posuere auctor.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:flex hidden items-center justify-center gap-4 mt-10">
+          <button
+            class="swiper-button-prev3 w-16 h-16 flex items-center justify-center bg-brand-black text-white rounded-full hover:bg-brand-blue-400 hover:scale-105 duration-300 ease-linear"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+              stroke="currentColor"
+              class="w-6 h-7"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+              />
+            </svg>
+          </button>
+
+          <button
+            class="swiper-button-next3 w-16 h-16 flex items-center justify-center bg-brand-black text-white rounded-full hover:bg-brand-blue-400 hover:scale-105 duration-300 ease-linear"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+              stroke="currentColor"
+              class="w-6 h-7"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- result -->
+    <section class="pt-24">
+      <div class="max-w-base mx-auto px-5">
+        <!-- top -->
+        <div
+          class="flex flex-col md:flex-row items-center justify-between mb-7"
+        >
+          <div class="mb-4 md:mb-0">
+            <p
+              class="uppercase text-lg font-semibold leading-5 text-center md:text-left mb-5"
+            >
+              Blog & Resource
+            </p>
+            <h2
+              class="text-3xl sm:text-5xl font-semibold leading-tight max-w-603 text-center md:text-left"
+            >
+              Browse our article on marketing and growth
+            </h2>
+          </div>
+          <button
+            class="py-4 md:py-5 px-8 block text-lg font-medium border border-gray-900 rounded-full hover:border-violet-700 hover:text-violet-700 hover:-translate-y-1 transition duration-500 hover:bg-violet-200"
+          >
+            All blog post
+          </button>
+        </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <!-- grid -->
+          <div
+            class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16 items-center sm:mx-auto"
+          >
+            <!-- Item 1 -->
+            <a href="#" class="group">
+              <div class="mb-5 max-w-401 rounded-2xl overflow-hidden">
+                <img
+                  class="rounded-xl w-full group-hover:scale-105 transition duration-500"
+                  src="./img/resultimg1.png"
+                  aria-details="hidden"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center gap-x-2 mb-3">
+                <p
+                  class="inline-block py-3 px-6 text-sm text-white bg-gray-800 rounded-full"
+                >
+                  Growth
+                </p>
+                <p class="text-lg font-semibold text-gray-700">Sep 8, 2022</p>
+              </div>
+              <p
+                class="text-2xl font-semibold group-hover:text-violet-500 transition duration-500"
+              >
+                How to increase your Twitter reach by over 200% with this simple
+                trick
+              </p>
+            </a>
+
+            <!-- Item 2 -->
+            <a href="#" class="group mb-auto">
+              <div class="mb-5 max-w-401 rounded-2xl overflow-hidden">
+                <img
+                  class="rounded-xl w-full group-hover:scale-105 transition duration-500"
+                  src="./img/resultimg2.png"
+                  aria-details="hidden"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center gap-x-2 mb-3">
+                <p
+                  class="inline-block py-3 px-6 text-sm text-white bg-gray-800 rounded-full"
+                >
+                  Growth
+                </p>
+                <p class="text-lg font-semibold text-gray-700">Sep 8, 2022</p>
+              </div>
+              <p
+                class="text-2xl font-semibold group-hover:text-violet-500 transition duration-500"
+              >
+                5 social media apps you should be paying attention to
+              </p>
+            </a>
+
+            <!-- Item 1 -->
+            <a href="#" class="group">
+              <div class="mb-5 max-w-401 rounded-2xl overflow-hidden">
+                <img
+                  class="rounded-xl w-full group-hover:scale-105 transition duration-500"
+                  src="./img/resultimg3.png"
+                  aria-details="hidden"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center gap-x-2 mb-3">
+                <p
+                  class="inline-block py-3 px-6 text-sm text-white bg-gray-800 rounded-full"
+                >
+                  Growth
+                </p>
+                <p class="text-lg font-semibold text-gray-700">Sep 8, 2022</p>
+              </div>
+              <p
+                class="text-2xl font-semibold group-hover:text-violet-500 transition duration-500"
+              >
+                How to reach out for guest posts to increase your SEO authority
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ready  -->
+    <section class="translate-y-1/2 mx-5 ">
+      <div data-aos="zoom-in-down">
+        <div
+          class="max-w-base md:px-24 md:py-32 px-7 py-6 mx-auto rounded-[40px] bg-[#C3EDFF] flex flex-col lg:flex-row items-center justify-between mt-48 relative"
+        >
+        <div class="hidden md:block">
+          <img src="./img/retlimgfd.svg" alt="" class="absolute bottom-11 animate-spin">
+          <img src="./img/retlimgfd.svg2svg.svg" alt="" class="absolute top-11 left-1/2 animate-spin">
+          <img src="./img/retlimgfd.svg1.svg" alt="" class="absolute right-14 top-2/3 animate-spin">
+        </div>
+          <h2
+            class="text-2xl lg:text-4xl md:leading-normal font-semibold max-w-[621px] text-center md:text-left mb-4 md:mb-0"
+          >
+            Ready to grow your company? Get in touch today!
+          </h2>
+          <button
+            class="px-8 py-6 bg-gray-900 text-white rounded-full flex items-center gap-3 hover:bg-violet-700 hover:-translate-y-1 transition duration-500 group"
+          >
+            Get in tounch
+            <span class="group-hover:translate-x-1 transition duration-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(255, 255, 255, 1); transform: msFilter"
+              >
+                <path
+                  d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <!-- footer section -->
+    <footer class="bg-gray-900 pt-40">
+      <!-- <a
+        href="#"
+        class="flex px-3 py-2 bg-white fixed z-50 bottom-5 border border-gray-900 right-3 rounded-md"
+      >
+        <img src="./img/ww.svg" aria-details="hidden" alt="" />
+        <span class="text-[10px]">Made in Webflow</span>
+      </a> -->
+      <div class="max-w-base px-5 mx-auto pt-[102px]">
+        <div
+          class="lg:flex items-start justify-between border-b border-gray-800 pb-[100px]"
+        >
+          <!-- Logo/ icons -->
+          <div class="mb-10 lg:mb-0">
+            <a href="#" class="hover:opacity-75 mr-1 duration-500">
+              <img src="./img/logofuter.svg" aria-details="hidden" alt="" />
+            </a>
+            <p class="max-w-[421px] text-lg font-medium text-white mb-7">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
+              mauris sed ma dolor sit amet.
+            </p>
+            <div class="flex items-center gap-3">
+              <a
+                href="#"
+                class="inline-block p-1 rounded-full bg-white hover:-translate-y-1 hover:bg-violet-700 duration-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(0, 0, 0, 1); transform: msFilter"
+                >
+                  <path
+                    d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="inline-block p-1 rounded-full bg-white hover:-translate-y-1 hover:bg-violet-700 duration-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(0, 0, 0, 1); transform: msFilter"
+                >
+                  <path
+                    d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="inline-block p-1 rounded-full bg-white hover:-translate-y-1 hover:bg-violet-700 duration-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(0, 0, 0, 1); transform: msFilter"
+                >
+                  <path
+                    d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"
+                  ></path>
+                  <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                  <path
+                    d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="inline-block p-1 rounded-full bg-white hover:-translate-y-1 hover:bg-violet-700 duration-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(0, 0, 0, 1); transform: msFilter"
+                >
+                  <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                  <path
+                    d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="inline-block p-1 rounded-full bg-white hover:-translate-y-1 hover:bg-violet-700 duration-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(0, 0, 0, 1); transform: msFilter"
+                >
+                  <path
+                    d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- Nav/ -->
+          <div class="sm:flex gap-x-20">
+            <div class="md:flex items-center">
+              <ul class="flex flex-col gap-y-2 mr-8">
+                <h3 class="text-lg font-bold text-white uppercase mb-5">
+                  Pages
+                </h3>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Contact</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Case studies</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Case studies single
+                    <span class="text-black bg-white px-2 rounded-full"
+                      >смс</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Servives</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Servives single</a
+                  >
+                </li>
+              </ul>
+              <ul class="flex flex-col gap-y-2">
+                <h3
+                  class="text-lg font-bold text-white uppercase mb-5 opacity-0"
+                >
+                  Pages
+                </h3>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Blog Post
+                    <span class="text-black bg-white px-2 rounded-full"
+                      >смс</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Packages</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Packages single<span
+                      class="text-black bg-white px-2 rounded-full"
+                      >смс</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Careers</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                    >Careers single<span
+                      class="text-black bg-white px-2 rounded-full"
+                      >смс</span
+                    ></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="flex flex-col gap-y-2">
+              <h3 class="text-lg font-bold text-white uppercase mb-5">
+                Utility Pages
+              </h3>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                  >Start hero</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block items-center gap-2 text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                  >Style guide</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500 inli"
+                  >Password protected</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block items-center gap-2 text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                  >404 Not found</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                  >Licenses</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="flex items-center gap-2 text-gray-300 text-lg font-normal hover:translate-x-1 hover:text-violet-700 transition duration-500"
+                  >Changelog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="flex items-center gap-2 text-gray-300 text-xl hover:translate-x-1 hover:text-violet-700 transition duration-500 group font-bold"
+                  >Browse all templates
+                  <span
+                    class="group-hover:translate-x-1 transition duration-500 group-hover:bg-text-700"
+                  >
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      style="fill: rgba(255, 255, 255, 1); transform: msFilter"
+                    >
+                      <path
+                        d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                      ></path>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-center mx-auto py-8 text-lg font-medium text-white">
+          Copyright © Rocket X | Designed by
+          <a
+            href="#"
+            class="border-b hover:text-violet-700 transition duration-500 hover:border-violet-700"
+            >BRIX Templates
+          </a>
+          - Powered by
+          <a
+            href="#"
+            class="border-b hover:text-violet-700 transition duration-500 hover:border-violet-700"
+          >
+            Webflow</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- Aos script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
